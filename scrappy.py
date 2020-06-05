@@ -3,9 +3,6 @@ import json
 import requests # to sent GET requests
 from bs4 import BeautifulSoup # to parse HTML
 
-GOOGLE_IMAGE = \
-    'https://www.bing.com/images/search?&q=tokyo+ghoul+wallpapers&qft=+filterui:imagesize-custom_1080_1920&FORM=IRFLTR'
-
 usr_agent = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
